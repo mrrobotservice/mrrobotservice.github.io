@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Icon-->
+  <link rel="shortcut icon" href="img/icon.png">
+  <!-- Meta Description -->
+  <meta name="description" content="">
+  <!-- Meta Keyword -->
+  <meta name="keywords" content="">
+  <!-- meta character set -->
+  <meta charset="UTF-8">
+  <!-- Site Title -->
+  <title>Контакты — "Mr Robot"</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- Шапка -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <div class="container"> <span class="navbar-brand mb-0 h1"><a href="index.html"><img class="img-fluid"
+            src="img/logo.png" alt="Логотип"></a></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">О нас</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- #nav-menu -->
+
+  <!-- start main-info Area -->
+
+  <!-- start banner Area -->
+  <div class="banner-area d-flex" id="home">
+    <div class="container d-flex">
+      <div class="about-content col-lg-12">
+        <h2 class="text-white">
+          Контакты
+        </h2>
+        <p class="text-white link-nav"><a href="index.html">Главная</a> <i class="fas fa-arrow-right"></i> <a
+            href="contact.html"> Контакты</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- End banner Area -->
+
+  <section class="main-content">
+    <div class="contact-page-area section-gap">
+      <div class="container">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147262.96485637006!2d31.859878317901895!3d54.780251278076626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ce543c05e6573b%3A0xdb294e72f01cc4bd!2sSmolensk%2C%20Smolensk%20Oblast!5e0!3m2!1sen!2sru!4v1590122141206!5m2!1sen!2sru"
+            width="100%" height="445" frameborder="" style="border:0;" allowfullscreen="0" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+        <div class="contact">
+          <div class="row no-padding">
+            <div class="col-lg-4 d-flex flex-column address-wrap">
+              <div class="single-contact-address d-flex flex-row">
+                <div class="icon">
+                  <i class="fas fa-home"></i></span>
+                </div>
+                <div class="contact-details">
+                  <p>Смоленск</p>
+                  <p>
+                    ул. 25 Сентября, д. 146Б
+                  </p>
+                </div>
+              </div>
+              <div class="single-contact-address d-flex flex-row">
+                <div class="icon">
+                  <i class="fas fa-phone-alt"></i></span>
+                </div>
+                <div class="contact-details">
+                  <p>+7 (800) 555-35-35</p>
+                  <p>С пн. по пт. с 9.00 до 18.00</p>
+                </div>
+              </div>
+              <div class="single-contact-address d-flex flex-row">
+                <div class="icon">
+                  <i class="fas fa-envelope"></i></span>
+                </div>
+                <div class="contact-details">
+                  <p>mr.robot.pcrepair@gmail.com</p>
+                  <p>Свяжитесь с нашими специалистами</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8"> <!-- Начало формы обратной связи -->
+              <form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+                <div class="row">
+                  <div class="col-lg-6 form-group">
+                    <input name="name" placeholder="Введите имя" onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Введите имя'" class="common-input mb-20 form-control" required=""
+                      type="text">
+
+                    <input name="email" placeholder="Введите email"
+                      pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Введите email'" class="common-input mb-20 form-control" required=""
+                      type="email">
+
+                    <input name="subject" placeholder="Тема" onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Тема'" class="common-input mb-20 form-control" required=""
+                      type="text">
+                  </div>
+                  <div class="col-lg-6 form-group">
+                    <textarea class="common-textarea form-control" name="message" placeholder="Текст"
+                      onfocus="this.placeholder = ''" onblur="this.placeholder = 'Текст'" required=""></textarea>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="alert-msg" style="text-align: left;"></div>
+                    <button class="genric-btn primary circle" style="float: right;">Отправить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer section-gap">
+    <div class="container">
+      <div class="footer-content">Компьютерный центр «Mr Robot» &copy;
+        <script>document.write(new Date().getFullYear());</script></span>
+      </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/cec30721ca.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,423 @@
+	/*-------------
+		General
+	-------------*/
+
+	.d-flex {
+		display: flex;
+	}
+	.center{
+		text-align: center;
+	}
+	.fs{
+		font-size: 35px !important;
+	}
+	
+	@media (max-width: 992px) {
+		.fs{
+			font-size: 25px !important;
+		}
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Open Sans";
+		color: #222;
+		line-height: 1.2em !important;
+		margin-bottom: 0;
+		margin-top: 0;
+		font-weight: 600
+	}
+
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		margin-bottom: 0;
+		margin-top: 0;
+		font-family: "Poppins", sans-serif;
+		font-weight: 600;
+		color: #222
+	}
+
+	.section-gap {
+		margin-top: 100px;
+	}
+
+	@media (max-width: 992px) {
+		.section-gap {
+			margin-top: 50px;
+		}
+	}
+
+	.no-padding {
+		padding: 0;
+	}
+
+	.mb-30{
+		margin-bottom: 30px;
+	}
+	.mb-20{
+		margin-bottom: 20px;
+	}
+	body {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		font-family: "Poppins";
+		background-color: #f9f9ff;
+		flex-direction: column;
+	}
+	@media (max-width: 992px) {
+		h2 {
+			text-align: center !important;
+		}
+	}
+
+	/*-------------
+		Шапка
+    -------------*/
+
+	.navbar-brand img {
+		filter: sepia(100%) grayscale(100%) brightness(0%);
+		width: 150px;
+	}
+
+	nav {
+		color: white;
+		box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+	}
+
+	.nav-link {
+		font-size: 16;
+		text-transform: uppercase;
+	}
+
+	@media (max-width: 992px) {
+		.navbar-brand img {
+			width: 130px;
+		}
+	}
+
+	@media (min-width: 992px) {
+		nav .container {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.navbar-brand img {
+			width: 100px;
+		}
+	}
+
+	/*-------------
+		Main
+    -------------*/
+
+	.main-content {
+		flex-grow: 1;
+		background-color: #f9f9ff;
+		margin-bottom: 70px;
+	}
+
+	/*-------------
+		Banner
+    -------------*/
+
+	.banner-area-row {
+		height: 467px;
+	}
+
+	.banner-area h1 {
+		color: white;
+	}
+
+	.banner-content {
+		text-align: left;
+	}
+
+	.banner-img {
+		filter: invert(100%);
+	}
+
+	.banner-area {
+		text-align: center;
+		color: white;
+		background-image: -webkit-linear-gradient(0deg, #222 0%, #555 100%);
+		margin-top: 80px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.about-content {
+		color: white;
+		text-align: center
+	}
+
+	.about-content i {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.about-content h2 {
+		font-size: 48px;
+		font-weight: 600
+	}
+
+	.about-content a {
+		color: #fff;
+		font-weight: 300;
+		font-size: 14px
+	}
+
+	.link-nav {
+		margin-top: 10px;
+		margin-bottom: 0px
+	}
+
+	@media (max-width: 992px) {
+		.banner-area h2 {
+			font-size: 35px;
+		}
+		.banner-area-row {
+			height: 367px;
+		}
+		.banner-area h1 {
+			font-size: 30px;
+		}
+	}
+	@media (max-width: 767px) {
+		.banner-area h2 {
+			font-size: 30px;
+		}
+		.banner-area p {
+			font-size: 16px;
+		}
+		.banner-img {
+			display: none;
+		}
+		.banner-content {
+			text-align: center;
+		}
+		.banner-area h1 {
+			font-size: 20px;
+		}
+		.banner-area-row {
+			height: 267px;
+		}
+	}
+
+	@media (max-width: 540px) {
+		.banner-area h1 {
+			font-size: 25px;
+		}
+	}
+
+	/*-------------
+        Service
+	-------------*/
+
+	.single-service {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.single-service h4{
+		font-size: 17px;
+	}
+	.single-service h4:hover{
+		color: #666;
+	}
+	.single-service a {
+		color: #555;
+		padding-top: 20px;
+		text-decoration: none;
+	}
+	.single-service a{
+		color: #666 !important;
+	}
+	
+	@media (max-width: 960px) {
+		.single-service {
+			text-align: center;
+			margin-bottom: 30px
+		}
+	}
+
+	/*-------------
+        About
+	-------------*/
+	
+	.home-about-area {
+		color: #777;
+		font-family: "Open Sans";
+		font-size: 16px;
+	}
+
+	.home-about-area p {
+		text-align: justify;
+		margin-top: 10px;
+	}
+
+	.about-bg img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.about-text {
+		margin-top: 20px;
+	}
+
+	@media (max-width: 992px) {
+		.about-bg img {
+			display: none;
+		}
+	}
+
+	.advantages h2 {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.advantages-list .item {
+		justify-content: space-around;
+		text-align: left;
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	.brands h2{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.carousel-item {
+		text-align: center;
+	}
+	.carousel-item img{
+		text-align: center;
+		filter: grayscale(100%) brightness(0%);
+		max-width: 100px;
+		max-height: 70px;
+		margin: auto;
+	}
+	@media (max-width: 767px) {
+		.carousel-item img{
+			margin-bottom: 50px;
+		}
+	}
+	/*-------------
+		Contact
+    -------------*/
+
+	.map {
+		max-width: 100%;
+		height: 445px;
+	}
+
+	.contact {
+		margin-top: 50px;
+	}
+
+	.contact .single-contact-address {
+		margin-bottom: 20px
+	}
+
+	.icon i {
+		font-size: 35px;
+		margin-right: 10px;
+	}
+
+	.contact-details p {
+		color: #555;
+		font-family: "Sans-serif";
+		font-weight: 300;
+		font-size: 16px;
+		margin: 0;
+	}
+
+	.form-area input {
+		padding: 15px;
+		margin-bottom: 20px;
+	}
+
+	.form-area input, .form-area textarea {
+		border-radius: 0;
+		font-size: 12px
+	}
+
+	.form-area textarea {
+		height: 190px;
+		margin-top: 0px
+	}
+
+	.form-area .primary-btn {
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s
+	}
+
+	.genric-btn {
+		display: inline-block;
+		outline: none;
+		line-height: 40px;
+		padding: 0 30px;
+		font-size: 12px;
+		text-align: center;
+		text-decoration: none;
+		font-weight: 500;
+		cursor: pointer;
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s
+	}
+
+	.genric-btn.primary {
+		color: #fff;
+		background: #222;
+		border: 1px solid transparent;
+	}
+
+	.genric-btn.primary:hover {
+		background: #555
+	}
+
+	@media (max-width: 992px) {
+		.banner-area {
+			padding-top: 40px;
+			margin-top: 60px;
+			padding-bottom: 40px;
+		}
+		.contact-page-area .container {
+			padding: 0;
+		}
+	}
+
+	@media (max-width: 576px) {
+		.contact-page-area .container {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+
+	/*-------------
+        Footer
+    -------------*/
+
+	footer {
+		flex-shrink: 0;
+		background-color: #222;
+		color: #f9f9ff;;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.footer-content {
+		font-family: "Poppins Sans-serif";
+		font-size: 16px;
+		text-align: center;
+	}
+	.table{
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+	tr:hover{
+		background-color: grey;
+	}
+	.no-hover:hover{
+		background-color:#32383e;
+	}
+	
